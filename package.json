@@ -1,0 +1,33 @@
+{
+  "name": "todo-app",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "vitest --globals"
+  },
+  "keywords": [],
+  "author": " <musabadru@gmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "koa-router": "^12.0.1",
+    "better-sqlite3": "^9.0.0",
+    "dotenv": "^16.3.1",
+    "eruda": "^3.0.1",
+    "koa": "^2.14.2",
+    "jsonwebtoken": "^9.0.2",
+    "koa-body": "^6.0.1",
+    "koa-static": "^5.0.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^8.52.0",
+    "eslint-config-koa": "^2.0.2",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.29.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-standard": "^5.0.0"
+  }
+}

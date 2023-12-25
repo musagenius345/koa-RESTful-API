@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="pico.min.css" />
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css"> -->
+
+    <style>
+    .warning{
+      --primary: red;
+    }
+
+    article{
+      margin-bottom: 1rem;
+    }
+    </style>  
+    <title>Todo App</title>
+  </head>
+
+  <body>
+    <div id="app" class="container">
+      <h1>Todo App</h1>
+      <div class="grid">
+        <input type="text" id="todoInput" placeholder="Enter your todo..." />
+        <button onclick="addTodo()">Add Todo</button>
+        <a type='button' href='/login'>Log In</a>
+      </div>
+      <ul id="todoList"></ul>
+    </div>
+    <script src="//cdn.jsdelivr.net/npm/eruda"></script>
+    <script>eruda.init();</script>    
+    <script src="./index.js"></script>
+  </body>
+</html>
