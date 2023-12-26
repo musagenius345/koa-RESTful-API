@@ -1,7 +1,7 @@
 // import eruda from "../node_modules/eruda/eruda.js";
 const todoList = document.getElementById("todoList");
 const todoInput = document.getElementById("todoInput");
-
+console.log('heloo')
 
 // // DevTools
 // eruda.init()
